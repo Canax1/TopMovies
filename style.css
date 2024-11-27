@@ -1,30 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Parkinsans:wght@300..800&display=swap');
 
-    @media (max-width: 1024px) { /* Tablets and small laptops */
+
+@media (max-width: 1024px) { /* Tablets and small laptops */
       .box {
         flex: 1 1 calc(50% - 20px); /* 2 boxes per row */
-      }
-    }
+}
 
-    @media (max-width: 768px) { /* Large phones and tablets */
+ @media (max-width: 768px) { /* Large phones and tablets */
       .box {
         flex: 1 1 calc(100% - 20px); /* 1 box per row */
       }
-    }
+}
 
     /* Mobile-Specific Adjustments */
-    @media (max-width: 480px) {
+@media (max-width: 480px) {
       .container {
         padding: 10px; /* Adjust padding for small screens */
-      }
-      .box {
-        font-size: 14px; /* Smaller text */
-      }
-    }
-
-
-
+}
 
 
 body{
